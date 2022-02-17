@@ -15,7 +15,8 @@ categories: git的使用
 {% title h3 , 企业项目 %}
 **这个时候一般都是有代码和分支**
 * 1.拉取代码到本地 git clone
-* 2.在本地新建个人分支并切换：git checkout -b dev //dev是分支名字
+* 2.在本地新建个人分支并切换：
+`git checkout -b dev //dev是分支名字`
 * 3.关联本地分支和远程分支 
 `git branch --set-upstream-to=origin/本地分支对应的远程分支  你当前的本地分支`
 * 4.git pull 拉取最新代码
@@ -37,6 +38,9 @@ categories: git的使用
 `git branch --set-upstream-to=origin/本地分支对应的远程分支  你当前的本地分支`
 7.推送代码
 `git push origin 分支`
+如果没有在github远程仓库上新建分支，默认分支名字是HEAD:main
+`git push origin HEAD:main`
+也可以默认 {% pbg yellow , git push origin HEAD %}，这个时候会自动创建跟本地分支一样的分支并推送。
 
 #### 通过本地新建项目
 需要自己初始化一个项目，多出.git目录，下面保存的是版本信息。
