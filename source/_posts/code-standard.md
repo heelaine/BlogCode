@@ -26,9 +26,7 @@ parserOptions: {
 		parser: "babel-eslint",
 }, //支持 es5 之外的语法
 ```
-
 rules:校验规则
-
 
 **3.rules 的选项**
 'xxx 规则'：三种选项
