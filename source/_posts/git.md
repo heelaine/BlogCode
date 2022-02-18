@@ -64,6 +64,7 @@ categories: git的使用
 ## 常见的git命令使用
 `git config  —list //显示git配置`
 `git remote -v  //查看远程仓库详细信息`
+`git remote remove origin //解除远程仓库关联`
 `git status //查看仓库状况`
 `git branch -r //列出所有远程分支`
 `git branch -a //列出所有本地分支和远程分支`
