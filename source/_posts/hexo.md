@@ -94,6 +94,8 @@ url: https://heelaine.github.io/
 ```
 {% pbg yellow, 这种方式也能实现cdn对图片的加速 %}  
 
+然而我又发现了另一种上传图片的方式，不需要自己手动写地址，**通过picGo+jsDeliver+github的方式**
+[原帖链接](https://blog.keepdai.cn/jsdelivr.html)原帖作者好像是高中生还是初中生，半夜看到时候自闭了。。。兴趣果然是最好的老师。。。哭哭
 
 {% title h2,  生成page的模版 %}
 在scaffolds文件夹中放置的是你生成new page的模版，默认生成的是post.md文件的模版，可以通过修改 **_config.yml**中的 **default_layout** 参数来指定默认布局。

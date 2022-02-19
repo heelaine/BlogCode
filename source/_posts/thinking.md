@@ -1,5 +1,5 @@
 ---
-title: thinking
+title: 前端思想
 author: helaine
 date: 2022-02-18 21:32:15
 tags: ['前端','vue']

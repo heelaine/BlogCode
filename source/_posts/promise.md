@@ -1,5 +1,5 @@
 ---
-title: promise
+title: 认识promise
 author: helaine
 date: 2022-02-13 01:13:47
 tags: ['前端','js','面试']
